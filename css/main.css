@@ -1,0 +1,550 @@
+body{
+    background: #EDEDED;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+/*
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+.clearfix {
+    *zoom: 1;
+}
+/***************************Top Navbar******************************/
+
+.navbar-default {
+    background-color:#fff;
+    border-bottom-color:#000;
+    padding:55px 0px 0px 0px;
+    border-radius:0px;
+    
+}
+.navbar-default .container{
+   position:relative;
+}
+#tel {
+    font-family: 'Averta-Semibold';
+    border-style: none;
+    position: absolute;
+    top: -40px;
+    right: 15px;
+    color: #aaaaaa;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 34px;
+    background-color: #fff !important;
+    margin-right: 0px;
+    padding-right: 0px;
+    
+}
+#tel .contact-tel{
+    color:#000;
+    font-size:20.8px;
+}
+.contact-tel:hover{
+    text-decoration: none;
+}
+.navbar-brand img{
+    display: block;
+    margin-top:-65px;
+   
+}
+.navbar-default .navbar-nav>li>a {
+     color:#000;
+     text-decoration: none;
+     display: block;
+     padding: .1em .3em;
+     font-weight:bold;
+     margin:0.5em 0px 0px 15px;
+}
+
+/***************Sigun UP*********/
+.order-online-top-header {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding-top: 0;
+    margin-top: 15px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.order-online-top-header p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 0;
+    text-align: left;
+}
+.order-online-top-header .user-login-info {
+    padding: 15px 0;
+}
+.orderonline-search {
+    margin-bottom: 10px;
+    text-align: right;
+    font-weight: normal;
+    margin-top: 16px;
+}
+.zero-pad {
+    padding-right: 0;
+}
+
+.user-login-info li a{
+    color: #000;
+    font-size: 14px;
+	font-weight: 700;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    transition: all 0.50s ease-in-out;
+}
+.user-login-info li a:hover, .user-login-info li a:active, .user-login-info li a:focus{
+    color: #E64D64;
+    text-decoration: none;
+}
+.user-login-info li a i {
+    color: #E64D64;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+/* ------------------------------------------------------
+    order online header top
+------------------------------------------------------*/
+.order-online-top-header {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding-top: 0;
+    margin-top: 15px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.order-online-top-header p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 0;
+    text-align: left;
+}
+.order-online-top-header .user-login-info {
+    padding: 15px 0;
+}
+.order-online-top-header .user-login-info ul {
+    margin-bottom: 0;
+}
+.order-online-top-header .btn-back {
+    padding: 10px 0;
+}
+.order-online-top-header .btn-back a {
+    background: #e64d64 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 400;
+    padding: 4px 8px;
+}
+a#offerBtn {
+    color: #F38173;
+}
+.user-login-info li a{
+    color: #000;
+    font-size: 14px;
+	font-weight: 700;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    transition: all 0.50s ease-in-out;
+}
+.user-login-info li a:hover, .user-login-info li a:active, .user-login-info li a:focus{
+    color: #E64D64;
+    text-decoration: none;
+}
+.user-login-info li a i {
+    color: #E64D64;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+/* .order-information textarea:focus{
+outline: 0;
+    border-color: #DE334E;
+} */
+.modal.in .modal-dialog{
+    margin-top: 12%;
+}
+
+.modal-dialog.modal-dialog-new {
+    z-index: 9999;
+}
+
+[class^="fas-"]:before, [class*=" fas-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+/***************************MENU****/
+.order-online-tab-nav {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 15px;
+    background-color: #FBFAFA;
+    padding: 0;
+}
+.order-online-tab-nav .active{
+    color: #e52d16 !important;
+    text-decoration: none;
+    border-bottom: 1px solid #e52d16;
+    background-color: #F5F5F5;
+}
+.order-online-tab-nav ul {
+    margin-bottom: 0;
+}
+.order-online-tab-nav li.active a {
+    color: #e52d16 !important;
+    text-decoration: none;
+    border-bottom: 1px solid #e52d16;
+    background-color: #F5F5F5;
+}
+.order-online-tab-nav li a {
+    font-size: 14px;
+    display: block;
+    color: #808080;
+    padding: 12px 20px 13px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+a#orderonlineOfferTab {
+    color: #F38173;
+}
+.restaurant-offer {
+    margin-top: 0;
+    color: #888;
+    background-color: #fff;
+    padding: 10px 10px;
+    font-weight: 100;
+}
+.restaurant-offer li:last-child {
+    border-bottom: 0;
+}
+.restaurant-offer li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 15px;
+}
+ul li {
+    line-height: 1.7em;
+}
+#order .restaurant-offer-info h6 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif !important;
+    line-height: 18px;
+}
+.restaurant-offer p {
+    margin-bottom: 0;
+    color: #333;
+}
+.restaurant-offer-gift-icon {
+    float: left;
+    padding-right: 10px;
+    display: block;
+    max-width: 38px;
+    padding-top: 8px;
+    width: 30px;
+}
+
+
+
+
+
+/**************Category list Vertical Menu************************************/
+
+.sidebar {
+    position:fixed;
+    display: block;
+    bottom: 0;
+    z-index: 1000;
+    min-height: 100%;
+    max-height: none;
+    overflow: auto;
+    top:250px;
+}
+
+.sidebar-left {
+    left: 0;
+}
+
+/* css to override hiding the sidebar according to different screen sizes */
+.row .sidebar.sidebar-left.sidebar-xs-show {
+    left: 0;
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+/*right sidebar is untested */
+.row .sidebar.sidebar-right.sidebar-xs-show {
+    right: 0;
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+
+/* animation class - optional: without it the sidebar would just pop in and out*/
+.sidebar-animate {
+    -webkit-transition: -webkit-transform 300ms ease;
+    -moz-transition: -moz-transform 300ms ease;
+    -o-transition: transform 300ms ease;
+    transition: transform 300ms ease;
+}
+
+/* Left panel positioning classes */
+.sidebar.sidebar-left {
+    -webkit-transform: translate(-100%,0);
+    -moz-transform: translate(-100%,0);
+    -ms-transform: translate(-100%,0);
+    -o-transform: translate(-100%,0);
+    transform: translate(-100%,0);
+}
+
+    .sidebar.sidebar-left.sidebar-open {
+        -webkit-transform: translate(0,0);
+        -moz-transform: translate(0,0);
+        -ms-transform: translate(0,0);
+        -o-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+
+.sidebar.sidebar-right {
+    -webkit-transform: translate(100%,0);
+    -moz-transform: translate(100%,0);
+    -ms-transform: translate(100%,0);
+    -o-transform: translate(100%,0);
+    transform: translate(100%,0);
+}
+
+    .sidebar.sidebar-right.sidebar-open {
+        -webkit-transform: translate(0,0);
+        -moz-transform: translate(0,0);
+        -ms-transform: translate(0,0);
+        -o-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+#menu{
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+#menu ul,li{
+    display:block; 
+}
+#menu li {
+    float: none;
+}
+#menu li>a{
+    display:block;
+    padding:0 1em;
+    margin-top:20px;
+}
+.category-list li {
+    float: none;
+}
+.category-list li a:link,
+.category-list li a:focus,
+.category-list li a:active,
+.category-list li a:visited {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 12px;
+	font-weight: 500;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+
+#menu li>a:hover,
+#menu li>a:focus,
+#menu li>a:active{
+    color: #e64d64;
+    background-color: #ffffff;
+    padding-left: 3px;
+    padding-right: 7px;
+}
+
+.category-dish-content {
+    margin-bottom: 20px;
+}
+.order-online-left-side{
+    background:#fff;
+
+}
+.category-name {
+    font-size: 18px;
+    line-height: 34px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    color: #e52d16;
+}
+
+/*---------------------------------------------------
+        order-online Page Start
+----------------------------------------------------*/
+
+.category-name {
+    font-size: 18px;
+    line-height: 34px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    color: #e52d16;
+}
+
+navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #e52d16;
+}
+.navbar-default .navbar-brand{ color: #e52d16; }
+
+.ui-order-btn i {
+    /* border: 2px solid #e52d16; */
+    /* padding: 3px 4px; */
+    /* color: #e52d16; */
+    /* border-radius: 50%; */
+    /* margin-top:2px; */
+}
+
+.ui-order-online-left-side {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#order-online .nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #E64D64;
+    cursor: default;
+    border-bottom-color: transparent;
+    transition: .7s;
+}
+
+#order-online .nav-tabs {
+    border: 0;
+    margin-top: -5px;
+    padding: 0;
+}
+
+.allergensInfo {
+    font-size: 12px;
+    font-style: italic;
+}
+
+#order-online .nav1>li>a:focus,
+.nav1>li>a:hover {
+    text-decoration: none;
+    transition: .7s;
+}
+#order-online .modal .modal-backdrop.in {
+    opacity: 0;
+}
+.dish-content {
+    border-bottom: 1px solid #efefef;
+    padding: 5px 0 15px;
+    margin-bottom: 5px;
+}
+
+.dish-content p {
+    margin: 0;
+    padding-top: 5px;
+    color: #333;
+}
+.dish-content p b{
+    font-size: 12px;
+}
+
+.dish-right-content {
+    float: right;
+}
+
+.dish-name {
+    font-size: 16px;
+    padding-right: 10px;
+    line-height: 30px;
+	font-weight: 700;
+    color: #333;
+}
+
+.dish-price {
+    margin-right: 15px;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    font-weight: 700;
+    float: left;
+    margin-top: 5px;
+}
+
+.ui-order-btn {
+    float: left;
+    cursor: pointer;
+}
+.ui-order-btn i {
+    border: 2px solid #e52d16;
+    padding: 3px 4px;
+    color: #e52d16;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+#order-online .btn-primary,
+#order-online .btn-primary:hover {
+    transition: .7s;
+}
+
+
+
+/**************Footer*******/
+.footer-bottom {
+    margin-top:20px;
+    background-color: #F2F2F2;
+    opacity: 0.95;
+    color:#000;
+}
+.footer-bottom a{
+    color:#000;
+}
+.lastfooter-container {
+    padding-top: 1em;
+}
+
